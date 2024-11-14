@@ -1,0 +1,19 @@
+_id: fld_eee22533f44641b7a52ccd230d6acc78
+type: RequestGroup
+parentId: wrk_b69373d2a3394cb3b330c94150e24237
+modified: 1731545278816
+created: 1731545090450
+name: test
+description: just a test tag
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1731545090450
+preRequestScript: null
+afterResponseScript: null
+authentication:
+  type: apikey
+  disabled: false
+  key: Authorization
+  value: "{{ _.api_key }}"
+  addTo: header
+headers: null
